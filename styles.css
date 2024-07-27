@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    height: 100%
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%
+
+}
+
+.sidecontainer {
+    background-color: rgb(208, 124, 124);
+    width: 25%
+}
+
+.sidebar, h3 {
+display: flex;
+justify-content: center;
+}
+
+.contentcontainer {
+    display: flex;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
